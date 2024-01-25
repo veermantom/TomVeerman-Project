@@ -1,0 +1,93 @@
+*{
+    width:375px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #F5F9FC;
+ 
+}
+
+body{
+    background-color: #01156C;
+    background-image: url(images/achtergrond.svg);
+}
+
+main{
+    justify-content: center;
+    text-align:left;
+    height: 1588px;
+    width: 375px;
+}
+
+
+footer {
+    width: fit-content;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li{
+    margin: 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #3D9185;
+    padding-right: 80px;
+}
+.titel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    align-items: center;
+}
+
+.logo{
+    transform: scale(0.4);
+}
+
+.burger{
+    transform: scale(0.5);
+}
+
+.nuggets{
+    transform: scale(0.5);
+}
+
+.seasticks{
+    transform: scale(0.5);
+}
+
+.balls{
+    transform: scale(0.5);
+}
+
